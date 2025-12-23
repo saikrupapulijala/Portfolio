@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="description" content="Saikrupa Pulijala - Experienced .NET Developer specializing in FinTech, Web API, Payment Gateway, and SQL Server">
+<meta name="keywords" content=".NET Developer, ASP.NET Core, Web API, FinTech Developer, SQL Server">
+
 <title>Saikrupa | .NET Developer</title>
 
 <style>
@@ -62,6 +65,7 @@ section.visible {
   background: #0a2540;
   color: white;
 }
+
 #about, #projects, #skills, #contact {
   background: #f4f6f8;
 }
@@ -144,6 +148,32 @@ p, li {
     padding: 20px;
   }
 }
+.skill {
+  margin-bottom: 20px;
+}
+.skill span {
+  font-weight: bold;
+}
+.bar {
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.fill {
+  background: #0a2540;
+  height: 100%;
+  border-radius: 5px;
+}
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+
 </style>
 </head>
 
@@ -161,6 +191,8 @@ p, li {
     <img src="images/profile.jpg" alt="Profile Photo" class="profile-pic">
 
   <h1>Saikrupa Pulijala</h1>
+  <p><b>Around 4 years experience building secure FinTech APIs & payment systems</b></p>
+
   <!-- <h3>Experienced .NET Developer | FinTech</h3> -->
   <h3>Experienced .NET Developer | FinTech | Web API</h3>
 
@@ -189,16 +221,36 @@ p, li {
 <section id="skills">
   <h2>Skills</h2>
   <ul style="list-style: none; padding-left: 0;">
-    <li>✔ C#, ASP.NET WebForms, .NET Core, Web API</li>
+    <!-- <li>✔ C#, ASP.NET WebForms, .NET Core, Web API</li>
     <li>✔ SQL Server, Entity Framework</li>
     <li>✔ Payment Gateway Integration, KYC Integration</li>
     <li>✔ RESTful API Design & Development</li>
     <li>✔ JavaScript, HTML, CSS</li>
-    <li>✔ CRM Customization</li>
+    <li>✔ CRM Customization</li> -->
+    <div class="skill">
+  <span>C# / .NET Core / Web API</span>
+  <div class="bar"><div class="fill" style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+  <span>SQL Server / Entity Framework</span>
+  <div class="bar"><div class="fill" style="width:85%"></div></div>
+</div>
+
+<div class="skill">
+  <span>Payment Gateway & KYC</span>
+  <div class="bar"><div class="fill" style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+  <span>JavaScript / HTML / CSS</span>
+  <div class="bar"><div class="fill" style="width:75%"></div></div>
+</div>
+
   </ul>
 </section>
 <section id="projects">
-  <h2>Projects</h2>
+  <!-- <h2>Projects</h2>
   <h4>Payzigo – FinTech Payment Platform</h4>
   <ul>
     <li>Designed and developed secure RESTful APIs using ASP.NET Core</li>
@@ -206,7 +258,19 @@ p, li {
     <li>Implemented secure transaction workflows following best practices</li>
     <li>Applied N-Tier architecture for scalability and maintainability</li>
     <li>Optimized SQL queries and database performance</li>
+  </ul> -->
+  <div class="project-card">
+  <h3>Payzigo – FinTech Payment Platform</h3>
+  <p><b>Role:</b> Backend Developer</p>
+  <p><b>Tech:</b> ASP.NET Core, Web API, SQL Server</p>
+  <ul>
+    <li>Developed secure REST APIs for payment processing</li>
+    <li>Integrated multiple payment gateways and KYC services</li>
+    <li>Implemented N-Tier architecture</li>
+    <li>Optimized SQL queries for performance</li>
   </ul>
+</div>
+
 </section>
 
 
