@@ -172,6 +172,83 @@ p, li {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-top: 20px;
 }
+/* =======================
+   MOBILE RESPONSIVE FIX
+   ======================= */
+
+@media (max-width: 768px) {
+
+  /* Sidebar becomes top navbar */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 5px;
+    z-index: 1000;
+  }
+
+  nav a {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  nav a i {
+    display: block;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+
+  /* Main content below navbar */
+  main {
+    margin-left: 0;
+    margin-top: 70px;
+    padding: 20px;
+  }
+
+  /* Sections spacing */
+  section {
+    min-height: auto;
+    padding: 50px 20px;
+  }
+
+  /* Home section center alignment */
+  #home {
+    text-align: center;
+  }
+
+  .profile-pic {
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  /* Buttons stack */
+  .home-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .btn,
+  .btn-outline {
+    width: 80%;
+    text-align: center;
+  }
+
+  /* Skills bar width fix */
+  .bar {
+    width: 100%;
+  }
+
+  /* Project card */
+  .project-card {
+    margin: 20px 0;
+  }
+}
 
 
 </style>
@@ -302,3 +379,4 @@ p, li {
 
 </body>
 </html>
+
